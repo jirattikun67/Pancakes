@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>วิธีทำพัดลม CPU จากลังกระดาษ</title>
+  <style>
+    *{box-sizing:border-box;margin:0;padding:0}
+    body{font-family:Tahoma,Arial,sans-serif;background:#f4f1ea;color:#2d241c;line-height:1.6}
+    header{background:linear-gradient(135deg,#181818,#3b3025);color:white;text-align:center;padding:50px 20px}
+    header h1{font-size:clamp(2rem,5vw,3.5rem);color:#f2bd45}
+    header p{margin-top:10px;color:#eee}
+    .container{max-width:1200px;margin:auto;padding:30px 20px}
+    .section-title{text-align:center;margin:30px 0 20px;font-size:2rem}
+    .main-image{display:block;width:100%;max-width:900px;margin:30px auto;border-radius:20px;box-shadow:0 8px 25px rgba(0,0,0,.2)}
+    .materials,.step{background:#fff;border-radius:18px;box-shadow:0 5px 15px rgba(0,0,0,.1)}
+    .materials{padding:25px}.materials ul{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:15px;list-style:none}
+    .materials li{background:#f6e8c8;padding:15px;border-radius:10px;font-weight:bold}
+    .steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:20px}
+    .step{overflow:hidden;transition:.3s}.step:hover{transform:translateY(-5px)}
+    .step-number{background:#2d241c;color:#f2bd45;font-size:2rem;font-weight:bold;width:60px;height:60px;display:grid;place-items:center;border-radius:0 0 18px 0}
+    .step-content{padding:20px}.step h3{margin:15px 0 8px}.icon{font-size:70px;text-align:center;margin:10px 0}
+    .blueprint{background:#1d2833;color:white;padding:30px;border-radius:20px;margin-top:30px}
+    .blueprint-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:20px}
+    .plan{border:2px dashed #62c7e8;padding:20px;border-radius:12px;text-align:center;background:#243644}
+    .shape-square{width:150px;height:150px;border:4px solid #f2bd45;margin:15px auto;position:relative}
+    .shape-circle{width:100px;height:100px;border:4px solid #62c7e8;border-radius:50%;position:absolute;top:21px;left:21px}
+    .fan-demo{width:180px;height:180px;border:8px solid #c79b62;border-radius:50%;margin:20px auto;display:grid;place-items:center}
+    .fan-demo:before{content:"✦";font-size:100px;color:#f2bd45}
+    .tips{background:#fff4d6;border-left:8px solid #f2bd45;padding:25px;border-radius:12px;margin-top:30px}
+    .tips li{margin:10px 0}footer{margin-top:40px;background:#181818;color:#fff;text-align:center;padding:20px}
+    @media(max-width:600px){header{padding:35px 15px}.container{padding:20px 15px}.section-title{font-size:1.6rem}}
+  </style>
+</head>
+<body>
+<header>
+  <h1>🌬️ วิธีทำพัดลม CPU จากลังกระดาษ</h1>
+  <p>โครงงานประดิษฐ์ง่าย ๆ จากวัสดุใกล้ตัว</p>
+</header>
+
+<main class="container">
+  <img src="cpu_fan_blueprint.png" alt="แปลนการทำพัดลม CPU จากลังกระดาษ" class="main-image">
+
+  <h2 class="section-title">🧰 อุปกรณ์ที่ใช้</h2>
+  <section class="materials">
+    <ul>
+      <li>📦 ลังกระดาษ</li><li>✂️ กรรไกร / คัตเตอร์</li><li>🧴 กาว / เทปกาว</li>
+      <li>📏 ไม้บรรทัด</li><li>✏️ ดินสอ / ปากกา</li><li>🧢 ฝาขวดน้ำ 1 อัน</li>
+    </ul>
+  </section>
+
+  <h2 class="section-title">🔧 ขั้นตอนการทำ</h2>
+  <section class="steps">
+    <article class="step"><div class="step-number">1</div><div class="step-content"><div class="icon">⭕</div><h3>ตัดกระดาษแข็งเป็นวงกลม</h3><p>ตัดกระดาษแข็งเป็นวงกลม ขนาดเส้นผ่านศูนย์กลางประมาณ 9 เซนติเมตร</p></div></article>
+    <article class="step"><div class="step-number">2</div><div class="step-content"><div class="icon">🌀</div><h3>วาดและตัดใบพัด</h3><p>วาดใบพัดประมาณ 4–6 ใบ แนะนำให้ใช้ 5 ใบ</p></div></article>
+    <article class="step"><div class="step-number">3</div><div class="step-content"><div class="icon">🧢</div><h3>ติดใบพัดกับฝาขวดน้ำ</h3><p>ติดใบพัดทุกใบเข้ากับฝาขวดน้ำ โดยจัดระยะให้เท่า ๆ กัน</p></div></article>
+    <article class="step"><div class="step-number">4</div><div class="step-content"><div class="icon">⬜</div><h3>สร้างโครงพัดลม</h3><p>ตัดลังกระดาษเป็นรูปสี่เหลี่ยม ขนาดประมาณ 12 × 12 เซนติเมตร</p></div></article>
+    <article class="step"><div class="step-number">5</div><div class="step-content"><div class="icon">⭕</div><h3>เจาะช่องตรงกลาง</h3><p>ตัดช่องวงกลมตรงกลาง ขนาดเส้นผ่านศูนย์กลางประมาณ 9 เซนติเมตร</p></div></article>
+    <article class="step"><div class="step-number">6</div><div class="step-content"><div class="icon">🔩</div><h3>ประกอบใบพัดเข้ากับโครง</h3><p>นำใบพัดติดเข้ากับแกนกลาง แล้วประกอบเข้ากับโครงพัดลม</p></div></article>
+    <article class="step"><div class="step-number">7</div><div class="step-content"><div class="icon">🎨</div><h3>ตกแต่งให้เหมือนพัดลม CPU</h3><p>วาดช่องระบายอากาศและเขียนคำว่า <strong>CPU FAN</strong></p></div></article>
+  </section>
+
+  <section class="blueprint">
+    <h2 class="section-title">📐 แบบแปลนขนาดจริง</h2>
+    <div class="blueprint-grid">
+      <div class="plan"><h3>โครงด้านหน้า</h3><div class="shape-square"><div class="shape-circle"></div></div><p>ขนาดโครง: 12 × 12 ซม.</p><p>ช่องตรงกลาง: Ø 9 ซม.</p></div>
+      <div class="plan"><h3>โครงด้านข้าง</h3><div style="width:180px;height:60px;border:4px solid #f2bd45;margin:35px auto"></div><p>ความลึกประมาณ 3 ซม.</p></div>
+      <div class="plan"><h3>รูปแบบใบพัด</h3><div class="fan-demo"></div><p>แนะนำใบพัด 5 ใบ</p><p>ติดรอบแกนกลางให้เท่ากัน</p></div>
+    </div>
+  </section>
+
+  <section class="tips">
+    <h2>💡 เคล็ดลับ</h2>
+    <ul>
+      <li>ใช้กระดาษลูกฟูกหลายชั้นเพื่อให้โครงแข็งแรงขึ้น</li>
+      <li>สามารถทาสีหรือตกแต่งขอบให้เหมือนพัดลมคอมพิวเตอร์จริงได้</li>
+      <li>ควรใช้กาวให้แน่นก่อนนำชิ้นส่วนมาประกอบ</li>
+      <li>ถ้าต้องการให้ใบพัดหมุนจริง สามารถเพิ่มมอเตอร์ขนาดเล็กได้</li>
+    </ul>
+  </section>
+</main>
+<footer><p>โครงงานพัดลม CPU จากลังกระดาษ 📦🌬️</p></footer>
+</body>
+</html>
